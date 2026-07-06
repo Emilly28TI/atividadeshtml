@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário De Inscrição </title>
+</head>
+<style>
+    *{
+        font-family:Arial, Helvetica, sans-serif
+    }
+</style>
+<body>
+    <style>
+        *{
+            background-color: rgb(240, 240, 240);
+        }
+    </style>
+    <p>
+<h6  style="text-align:left;">18/06/2026, 08:54; Cadastro - Assistência Social</h6>
+    </p>
+<h1 style="text-align: center;">Cadastro - Assistência Social</h1>
+<fieldset>
+    <legend>
+        <h3 style="font-weight: bold;">Informe os dados a seguir:</h3>
+    </legend>
+
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Nome Completo:</h5>
+    <form>
+        <label for="nome"></label>
+        <input id="nome" type="text" placeholder="Digite seu nome completo"name="texto" required/>
+    </form>
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">CPF:</h5>
+
+    <form>
+        <label for="nome"></label>
+        <input id="nome" type="number" placeholder="000.000.000-00"name="texto" required/>
+    </form>
+
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Data de Nascimento:</h5>
+    <form>
+        <label for="nome"></label>
+        <input id="nome" type="date" min="2000-01-01" max="2007-12-31" placeholder="DD/MM/AA"name="texto" required/>
+    </form>
+
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Sexo:</h5>
+    <form>
+        <p>
+         <input type="checkbox" id="F"/>
+         <label for="nome">Feminino</label>
+        </p>
+        <p>
+         <input type="checkbox" id="M"/>
+         <label for="nome">Masculino</label>
+        </p>
+        
+    </form>
+
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Email:</h5>
+    <form>
+        <label for="nome"></label>
+        <input id="nome" type="email" placeholder="Exemplo@gmail.com"name="texto" required/>
+    </form>
+
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Telefone:</h5>
+    <form>
+        <label for="nome"></label>
+        <input id="nome" type="number" placeholder="(00) 00000-0000"name="texto" required/>
+
+            <p>
+        <input type="checkbox" id=""/>
+        <label for="nome">Fixo</label>
+            </p>
+            <p>
+        <input type="checkbox" id=""/>
+        <label for="nome">Whatsapp</label>
+            </p>
+    </form>
+
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Renda Familiar:</h5>
+    <form>
+        <label for="nome"></label>
+        <input id="nome" type="text" placeholder="Informe o valor"name="texto" required/>
+    </form>
+
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Quantidade de pessoas na família:</h5>
+    <form>
+        <label for="nome"></label>
+        <input id="nome" type="number" placeholder="Informe a quantidade"name="texto" required/>
+    </form>
+
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Possui benefício social?</h5>
+     <form>
+        <label for="nome"></label>
+        <p>
+            <input type="checkbox" id=""/>
+            <label for="nome">Auxílio brasil</label>
+        </p>
+        <p>
+            <input type="checkbox" id=""/>
+            <label for="nome">Bolsa Família</label>
+        </p>
+        <p>
+             <input type="checkbox" id=""/>
+             <label for="nome">Auxílio Moradia</label>
+        </p>
+        <p>
+             <input type="checkbox" id=""/>
+             <label for="nome">Seguro Desemprego</label>
+        </p>
+        <p>
+        <label for="nome">Outro que não esteja listado:</label>
+        </p>
+        <p>
+        <input id="nome" type="text" placeholder="Informe qual"name="texto"/>
+        </p>
+    </form>
+    </fieldset>
+
+<fieldset>
+    <legend>
+    <h3 style="font-weight: bold;">Dados De Endereço:</h3>
+    </legend>
+    <form>
+        <label for="nome"></label>
+        <select>
+
+<option value="Abaíra, Ba">Abaíra Ba</option>
+<option value="Abaré, Ba">Abaré Ba</option>
+<option value="Acajutiba, Ba">Acajutiba Ba</option>
+<option value="Adustina, Ba">Adustina Ba</option>
+<option value="Água Fria, Ba">Água Fria Ba</option>
+<option value="Aiquara, Ba">Aiquara Ba</option>
+<option value="Alagoinhas, Ba">Alagoinhas Ba</option>
+<option value="Alcobaça, Ba">Alcobaça Ba</option>
+<option value="Almadina, Ba">Almadina Ba</option>
+<option value="Amargosa, Ba">Amargosa Ba</option>
+<option value="Amélia Rodrigues, Ba">Amélia Rodrigues Ba</option>
+<option value="América Dourada, Ba">América Dourada Ba</option>
+<option value="Anagé, Ba">Anagé Ba</option>
+<option value="Andaraí, Ba">Andaraí Ba</option>
+<option value="Andorinha, Ba">Andorinha Ba</option>
+<option value="Angical, Ba">Angical Ba</option>
+<option value="Anguera, Ba">Anguera Ba</option>
+<option value="Antas, Ba">Antas Ba</option>
+<option value="Antônio Cardoso, Ba">Antônio Cardoso Ba</option>
+<option value="Antônio Gonçalves, Ba">Antônio Gonçalves Ba</option>
+<option value="Aporá, Ba">Aporá Ba</option>
+<option value="Apuarema, Ba">Apuarema Ba</option>
+<option value="Araçás, Ba">Araçás Ba</option>
+<option value="Aracatu, Ba">Aracatu Ba</option>
+<option value="Araci, Ba">Araci Ba</option>
+<option value="Aramari, Ba">Aramari Ba</option>
+<option value="Arataca, Ba">Arataca Ba</option>
+<option value="Aratuípe, Ba">Aratuípe Ba</option>
+<option value="Aurelino Leal, Ba">Aurelino Leal Ba</option>
+<option value="Baianópolis, Ba">Baianópolis Ba</option>
+<option value="Baixa Grande, Ba">Baixa Grande Ba</option>
+<option value="Banzaê, Ba">Banzaê Ba</option>
+<option value="Barra, Ba">Barra Ba</option>
+<option value="Barra da Estiva, Ba">Barra da Estiva Ba</option>
+<option value="Barra do Choça, Ba">Barra do Choça Ba</option>
+<option value="Barra do Mendes, Ba">Barra do Mendes Ba</option>
+<option value="Barra do Rocha, Ba">Barra do Rocha Ba</option>
+<option value="Barreiras, Ba">Barreiras Ba</option>
+<option value="Barro Alto, Ba">Barro Alto Ba</option>
+<option value="Barrocas, Ba">Barrocas Ba</option>
+<option value="Barro Preto, Ba">Barro Preto Ba</option>
+<option value="Belmonte, Ba">Belmonte Ba</option>
+<option value="Belo Campo, Ba">Belo Campo Ba</option>
+<option value="Biritinga, Ba">Biritinga Ba</option>
+<option value="Boa Nova, Ba">Boa Nova Ba</option>
+<option value="Boa Vista do Tupim, Ba">Boa Vista do Tupim Ba</option>
+<option value="Bom Jesus da Lapa, Ba">Bom Jesus da Lapa Ba</option>
+<option value="Bom Jesus da Serra, Ba">Bom Jesus da Serra Ba</option>
+<option value="Boninal, Ba">Boninal Ba</option>
+<option value="Bonito, Ba">Bonito Ba</option>
+<option value="Boquira, Ba">Boquira Ba</option>
+<option value="Botuporã, Ba">Botuporã Ba</option>
+<option value="Brejões, Ba">Brejões Ba</option>
+<option value="Brejolândia, Ba">Brejolândia Ba</option>
+<option value="Brumado, Ba">Brumado Ba</option>
+<option value="Buerarema, Ba">Buerarema Ba</option>
+<option value="Buritirama, Ba">Buritirama Ba</option>
+<option value="Caatiba, Ba">Caatiba Ba</option>
+<option value="Cabaceiras do Paraguaçu, Ba">Cabaceiras do Paraguaçu Ba</option>
+<option value="Cachoeira, Ba">Cachoeira Ba</option>
+<option value="Caculé, Ba">Caculé Ba</option>
+<option value="Caém, Ba">Caém Ba</option>
+<option value="Caetanos, Ba">Caetanos Ba</option>
+<option value="Caetité, Ba">Caetité Ba</option>
+<option value="Cafarnaum, Ba">Cafarnaum Ba</option>
+<option value="Cairu, Ba">Cairu Ba</option>
+<option value="Caldeirão Grande, Ba">Caldeirão Grande Ba</option>
+<option value="Camacan, Ba">Camacan Ba</option>
+<option value="Camaçari, Ba">Camaçari Ba</option>
+<option value="Camamu, Ba">Camamu Ba</option>
+<option value="Campo Formoso, Ba">Campo Formoso Ba</option>
+<option value="Campo Alegre de Lourdes, Ba">Campo Alegre de Lourdes Ba</option>
+<option value="Canápolis, Ba">Canápolis Ba</option>
+<option value="Canarana, Ba">Canarana Ba</option>
+<option value="Canavieiras, Ba">Canavieiras Ba</option>
+<option value="Candeal, Ba">Candeal Ba</option>
+<option value="Candeias, Ba">Candeias Ba</option>
+<option value="Candiba, Ba">Candiba Ba</option>
+<option value="Cândido Sales, Ba">Cândido Sales Ba</option>
+<option value="Cansanção, Ba">Cansanção Ba</option>
+<option value="Canudos, Ba">Canudos Ba</option>
+<option value="Capela do Alto Alegre, Ba">Capela do Alto Alegre Ba</option>
+<option value="Capim Grosso, Ba">Capim Grosso Ba</option>
+<option value="Caraíbas, Ba">Caraíbas Ba</option>
+<option value="Caravelas, Ba">Caravelas Ba</option>
+<option value="Cardeal da Silva, Ba">Cardeal da Silva Ba</option>
+<option value="Carinhanha, Ba">Carinhanha Ba</option>
+<option value="Casa Nova, Ba">Casa Nova Ba</option>
+<option value="Castro Alves, Ba">Castro Alves Ba</option>
+<option value="Catolândia, Ba">Catolândia Ba</option>
+<option value="Catu, Ba">Catu Ba</option>
+<option value="Caturama, Ba">Caturama Ba</option>
+<option value="Central, Ba">Central Ba</option>
+<option value="Chorrochó, Ba">Chorrochó Ba</option>
+<option value="Cícero Dantas, Ba">Cícero Dantas Ba</option>
+<option value="Cipó, Ba">Cipó Ba</option>
+<option value="Coaraci, Ba">Coaraci Ba</option>
+<option value="Cocos, Ba">Cocos Ba</option>
+<option value="Conceição do Almeida, Ba">Conceição do Almeida Ba</option>
+<option value="Conceição do Coité, Ba">Conceição do Coité Ba</option>
+<option value="Conceição do Jacuípe, Ba">Conceição do Jacuípe Ba</option>
+<option value="Conde, Ba">Conde Ba</option>
+<option value="Condeúba, Ba">Condeúba Ba</option>
+<option value="Contendas do Sincorá, Ba">Contendas do Sincorá Ba</option>
+<option value="Coração de Maria, Ba">Coração de Maria Ba</option>
+<option value="Cordeiros, Ba">Cordeiros Ba</option>
+<option value="Coribe, Ba">Coribe Ba</option>
+<option value="Coronel João Sá, Ba">Coronel João Sá Ba</option>
+<option value="Correntina, Ba">Correntina Ba</option>
+<option value="Cotegipe, Ba">Cotegipe Ba</option>
+<option value="Cravolândia, Ba">Cravolândia Ba</option>
+<option value="Crisópolis, Ba">Crisópolis Ba</option>
+<option value="Cristópolis, Ba">Cristópolis Ba</option>
+<option value="Cruz das Almas, Ba">Cruz das Almas Ba</option>
+<option value="Curaçá, Ba">Curaçá Ba</option>
+<option value="Dário Meira, Ba">Dário Meira Ba</option>
+<option value="Dias d'Ávila, Ba">Dias d'Ávila Ba</option>
+<option value="Dom Basílio, Ba">Dom Basílio Ba</option>
+<option value="Dom Macedo Costa, Ba">Dom Macedo Costa Ba</option>
+<option value="Elísio Medrado, Ba">Elísio Medrado Ba</option>
+<option value="Encruzilhada, Ba">Encruzilhada Ba</option>
+<option value="Entre Rios, Ba">Entre Rios Ba</option>
+<option value="Érico Cardoso, Ba">Érico Cardoso Ba</option>
+<option value="Esplanada, Ba">Esplanada Ba</option>
+<option value="Euclides da Cunha, Ba">Euclides da Cunha Ba</option>
+<option value="Eunápolis, Ba">Eunápolis Ba</option>
+<option value="Fátima, Ba">Fátima Ba</option>
+<option value="Feira de Santana, Ba">Feira de Santana Ba</option>
+<option value="Filadélfia, Ba">Filadélfia Ba</option>
+<option value="Firmino Alves, Ba">Firmino Alves Ba</option>
+<option value="Floresta Azul, Ba">Floresta Azul Ba</option>
+<option value="Formosa do Rio Preto, Ba">Formosa do Rio Preto Ba</option>
+<option value="Gandu, Ba">Gandu Ba</option>
+<option value="Gavião, Ba">Gavião Ba</option>
+<option value="Gentio do Ouro, Ba">Gentio do Ouro Ba</option>
+<option value="Glória, Ba">Glória Ba</option>
+<option value="Gongogi, Ba">Gongogi Ba</option>
+<option value="Governador Mangabeira, Ba">Governador Mangabeira Ba</option>
+<option value="Guajeru, Ba">Guajeru Ba</option>
+<option value="Guanambi, Ba">Guanambi Ba</option>
+<option value="Guaratinga, Ba">Guaratinga Ba</option>
+<option value="Iaçu, Ba">Iaçu Ba</option>
+<option value="Ibiassucê, Ba">Ibiassucê Ba</option>
+<option value="Ibicaraí, Ba">Ibicaraí Ba</option>
+<option value="Ibicoara, Ba">Ibicoara Ba</option>
+<option value="Ibicuí, Ba">Ibicuí Ba</option>
+<option value="Ibipeba, Ba">Ibipeba Ba</option>
+<option value="Ibipitanga, Ba">Ibipitanga Ba</option>
+<option value="Ibiquera, Ba">Ibiquera Ba</option>
+<option value="Ibirapitanga, Ba">Ibirapitanga Ba</option>
+<option value="Ibirapuã, Ba">Ibirapuã Ba</option>
+<option value="Ibirataia, Ba">Ibirataia Ba</option>
+<option value="Ibitiara, Ba">Ibitiara Ba</option>
+<option value="Ibititá, Ba">Ibititá Ba</option>
+<option value="Ibotirama, Ba">Ibotirama Ba</option>
+<option value="Ichu, Ba">Ichu Ba</option>
+<option value="Igaporá, Ba">Igaporá Ba</option>
+<option value="Igrapiúna, Ba">Igrapiúna Ba</option>
+<option value="Iguaí, Ba">Iguaí Ba</option>
+<option value="Ilhéus, Ba">Ilhéus Ba</option>
+<option value="Inhambupe, Ba">Inhambupe Ba</option>
+<option value="Ipecaetá, Ba">Ipecaetá Ba</option>
+<option value="Ipiaú, Ba">Ipiaú Ba</option>
+<option value="Ipirá, Ba">Ipirá Ba</option>
+<option value="Ipupiara, Ba">Ipupiara Ba</option>
+<option value="Iraquara, Ba">Iraquara Ba</option>
+<option value="Irará, Ba">Irará Ba</option>
+<option value="Irecê, Ba">Irecê Ba</option>
+<option value="Itabela, Ba">Itabela Ba</option>
+<option value="Itaberaba, Ba">Itaberaba Ba</option>
+<option value="Itabuna, Ba">Itabuna Ba</option>
+<option value="Itacaré, Ba">Itacaré Ba</option>
+<option value="Itaeté, Ba">Itaeté Ba</option>
+<option value="Itagi, Ba">Itagi Ba</option>
+<option value="Itagibá, Ba">Itagibá Ba</option>
+<option value="Itagimirim, Ba">Itagimirim Ba</option>
+<option value="Itaguaçu da Bahia, Ba">Itaguaçu da Bahia Ba</option>
+<option value="Itaju do Colônia, Ba">Itaju do Colônia Ba</option>
+<option value="Itajuípe, Ba">Itajuípe Ba</option>
+<option value="Itamaraju, Ba">Itamaraju Ba</option>
+<option value="Itamari, Ba">Itamari Ba</option>
+<option value="Itambé, Ba">Itambé Ba</option>
+<option value="Itanagra, Ba">Itanagra Ba</option>
+<option value="Itanhém, Ba">Itanhém Ba</option>
+<option value="Itaparica, Ba">Itaparica Ba</option>
+<option value="Itapé, Ba">Itapé Ba</option>
+<option value="Itapebi, Ba">Itapebi Ba</option>
+<option value="Itapetinga, Ba">Itapetinga Ba</option>
+<option value="Itapicuru, Ba">Itapicuru Ba</option>
+<option value="Itapitanga, Ba">Itapitanga Ba</option>
+<option value="Itaquara, Ba">Itaquara Ba</option>
+<option value="Itarantim, Ba">Itarantim Ba</option>
+<option value="Itatim, Ba">Itatim Ba</option>
+<option value="Itiruçu, Ba">Itiruçu Ba</option>
+<option value="Itiúba, Ba">Itiúba Ba</option>
+<option value="Itororó, Ba">Itororó Ba</option>
+<option value="Ituaçu, Ba">Ituaçu Ba</option>
+<option value="Ituberá, Ba">Ituberá Ba</option>
+<option value="Iuiú, Ba">Iuiú Ba</option>
+<option value="Jaborandi, Ba">Jaborandi Ba</option>
+<option value="Jacaraci, Ba">Jacaraci Ba</option>
+<option value="Jacobina, Ba">Jacobina Ba</option>
+<option value="Jaguaquara, Ba">Jaguaquara Ba</option>
+<option value="Jaguarari, Ba">Jaguarari Ba</option>
+<option value="Jaguaripe, Ba">Jaguaripe Ba</option>
+<option value="Jandaíra, Ba">Jandaíra Ba</option>
+<option value="Jequié, Ba">Jequié Ba</option>
+<option value="Jeremoabo, Ba">Jeremoabo Ba</option>
+<option value="Jiquiriçá, Ba">Jiquiriçá Ba</option>
+<option value="Jitaúna, Ba">Jitaúna Ba</option>
+<option value="João Dourado, Ba">João Dourado Ba</option>
+<option value="Juazeiro, Ba">Juazeiro Ba</option>
+<option value="Jucuruçu, Ba">Jucuruçu Ba</option>
+<option value="Jussara, Ba">Jussara Ba</option>
+<option value="Jussari, Ba">Jussari Ba</option>
+<option value="Jussiape, Ba">Jussiape Ba</option>
+<option value="Lafaiete Coutinho, Ba">Lafaiete Coutinho Ba</option>
+<option value="Lagoa Real, Ba">Lagoa Real Ba</option>
+<option value="Laje, Ba">Laje Ba</option>
+<option value="Lajedão, Ba">Lajedão Ba</option>
+<option value="Lajedinho, Ba">Lajedinho Ba</option>
+<option value="Lajedo do Tabocal, Ba">Lajedo do Tabocal Ba</option>
+<option value="Lamarão, Ba">Lamarão Ba</option>
+<option value="Lapão, Ba">Lapão Ba</option>
+<option value="Lauro de Freitas, Ba">Lauro de Freitas Ba</option>
+<option value="Lençóis, Ba">Lençóis Ba</option>
+<option value="Licínio de Almeida, Ba">Licínio de Almeida Ba</option>
+<option value="Livramento de Nossa Senhora, Ba">Livramento de Nossa Senhora Ba</option>
+<option value="Luís Eduardo Magalhães, Ba">Luís Eduardo Magalhães Ba</option>
+<option value="Macajuba, Ba">Macajuba Ba</option>
+<option value="Macarani, Ba">Macarani Ba</option>
+<option value="Macaúbas, Ba">Macaúbas Ba</option>
+<option value="Macururé, Ba">Macururé Ba</option>
+<option value="Madre de Deus, Ba">Madre de Deus Ba</option>
+<option value="Maetinga, Ba">Maetinga Ba</option>
+<option value="Maiquinique, Ba">Maiquinique Ba</option>
+<option value="Mairi, Ba">Mairi Ba</option>
+<option value="Malhada, Ba">Malhada Ba</option>
+<option value="Malhada de Pedras, Ba">Malhada de Pedras Ba</option>
+<option value="Manoel Vitorino, Ba">Manoel Vitorino Ba</option>
+<option value="Mansidão, Ba">Mansidão Ba</option>
+<option value="Maracás, Ba">Maracás Ba</option>
+<option value="Maragogipe, Ba">Maragogipe Ba</option>
+<option value="Marcionílio Souza, Ba">Marcionílio Souza Ba</option>
+<option value="Mascote, Ba">Mascote Ba</option>
+<option value="Mata de São João, Ba">Mata de São João Ba</option>
+<option value="Matina, Ba">Matina Ba</option>
+<option value="Medeiros Neto, Ba">Medeiros Neto Ba</option>
+<option value="Miguel Calmon, Ba">Miguel Calmon Ba</option>
+<option value="Milagres, Ba">Milagres Ba</option>
+<option value="Mirangaba, Ba">Mirangaba Ba</option>
+<option value="Mirante, Ba">Mirante Ba</option>
+<option value="Monte Santo, Ba">Monte Santo Ba</option>
+<option value="Morpará, Ba">Morpará Ba</option>
+<option value="Morro do Chapéu, Ba">Morro do Chapéu Ba</option>
+<option value="Mortugaba, Ba">Mortugaba Ba</option>
+<option value="Mucugê, Ba">Mucugê Ba</option>
+<option value="Mucuri, Ba">Mucuri Ba</option>
+<option value="Mulungu do Morro, Ba">Mulungu do Morro Ba</option>
+<option value="Mundo Novo, Ba">Mundo Novo Ba</option>
+<option value="Muniz Ferreira, Ba">Muniz Ferreira Ba</option>
+<option value="Muquém do São Francisco, Ba">Muquém do São Francisco Ba</option>
+<option value="Muritiba, Ba">Muritiba Ba</option>
+<option value="Mutuípe, Ba">Mutuípe Ba</option>
+<option value="Nazaré, Ba">Nazaré Ba</option>
+<option value="Nilo Peçanha, Ba">Nilo Peçanha Ba</option>
+<option value="Nordestina, Ba">Nordestina Ba</option>
+<option value="Nova Canaã, Ba">Nova Canaã Ba</option>
+<option value="Nova Fátima, Ba">Nova Fátima Ba</option>
+<option value="Nova Ibiá, Ba">Nova Ibiá Ba</option>
+<option value="Nova Itarana, Ba">Nova Itarana Ba</option>
+<option value="Nova Redenção, Ba">Nova Redenção Ba</option>
+<option value="Nova Soure, Ba">Nova Soure Ba</option>
+<option value="Nova Viçosa, Ba">Nova Viçosa Ba</option>
+<option value="Novo Horizonte, Ba">Novo Horizonte Ba</option>
+<option value="Novo Triunfo, Ba">Novo Triunfo Ba</option>
+<option value="Olindina, Ba">Olindina Ba</option>
+<option value="Oliveira dos Brejinhos, Ba">Oliveira dos Brejinhos Ba</option>
+<option value="Ouriçangas, Ba">Ouriçangas Ba</option>
+<option value="Ourolândia, Ba">Ourolândia Ba</option>
+<option value="Palmas de Monte Alto, Ba">Palmas de Monte Alto Ba</option>
+<option value="Palmeiras, Ba">Palmeiras Ba</option>
+<option value="Paramirim, Ba">Paramirim Ba</option>
+<option value="Paratinga, Ba">Paratinga Ba</option>
+<option value="Paripiranga, Ba">Paripiranga Ba</option>
+<option value="Pau Brasil, Ba">Pau Brasil Ba</option>
+<option value="Paulo Afonso, Ba">Paulo Afonso Ba</option>
+<option value="Pé de Serra, Ba">Pé de Serra Ba</option>
+<option value="Pedrão, Ba">Pedrão Ba</option>
+<option value="Pedro Alexandre, Ba">Pedro Alexandre Ba</option>
+<option value="Piatã, Ba">Piatã Ba</option>
+<option value="Pilão Arcado, Ba">Pilão Arcado Ba</option>
+<option value="Pindaí, Ba">Pindaí Ba</option>
+<option value="Pindobaçu, Ba">Pindobaçu Ba</option>
+<option value="Pintadas, Ba">Pintadas Ba</option>
+<option value="Piraí do Norte, Ba">Piraí do Norte Ba</option>
+<option value="Piripá, Ba">Piripá Ba</option>
+<option value="Piritiba, Ba">Piritiba Ba</option>
+<option value="Planaltino, Ba">Planaltino Ba</option>
+<option value="Planalto, Ba">Planalto Ba</option>
+<option value="Poções, Ba">Poções Ba</option>
+<option value="Ponto Novo, Ba">Ponto Novo Ba</option>
+<option value="Porto Seguro, Ba">Porto Seguro Ba</option>
+<option value="Potiraguá, Ba">Potiraguá Ba</option>
+<option value="Prado, Ba">Prado Ba</option>
+<option value="Presidente Dutra, Ba">Presidente Dutra Ba</option>
+<option value="Presidente Jânio Quadros, Ba">Presidente Jânio Quadros Ba</option>
+<option value="Presidente Tancredo Neves, Ba">Presidente Tancredo Neves Ba</option>
+<option value="Queimadas, Ba">Queimadas Ba</option>
+<option value="Quijingue, Ba">Quijingue Ba</option>
+<option value="Quixabeira, Ba">Quixabeira Ba</option>
+<option value="Rafael Jambeiro, Ba">Rafael Jambeiro Ba</option>
+<option value="Remanso, Ba">Remanso Ba</option>
+<option value="Retirolândia, Ba">Retirolândia Ba</option>
+<option value="Riachão das Neves, Ba">Riachão das Neves Ba</option>
+<option value="Riachão do Jacuípe, Ba">Riachão do Jacuípe Ba</option>
+<option value="Riacho de Santana, Ba">Riacho de Santana Ba</option>
+<option value="Ribeira do Amparo, Ba">Ribeira do Amparo Ba</option>
+<option value="Ribeira do Pombal, Ba">Ribeira do Pombal Ba</option>
+<option value="Ribeirão do Largo, Ba">Ribeirão do Largo Ba</option>
+<option value="Rio de Contas, Ba">Rio de Contas Ba</option>
+<option value="Rio do Antônio, Ba">Rio do Antônio Ba</option>
+<option value="Rio do Pires, Ba">Rio do Pires Ba</option>
+<option value="Rio Real, Ba">Rio Real Ba</option>
+<option value="Rodelas, Ba">Rodelas Ba</option>
+<option value="Ruy Barbosa, Ba">Ruy Barbosa Ba</option>
+<option value="Salinas da Margarida, Ba">Salinas da Margarida Ba</option>
+<option value="Salvador, Ba">Salvador Ba</option>
+<option value="Santa Bárbara, Ba">Santa Bárbara Ba</option>
+<option value="Santa Brígida, Ba">Santa Brígida Ba</option>
+<option value="Santa Cruz Cabrália, Ba">Santa Cruz Cabrália Ba</option>
+<option value="Santa Cruz da Vitória, Ba">Santa Cruz da Vitória Ba</option>
+<option value="Santa Inês, Ba">Santa Inês Ba</option>
+<option value="Santa Luzia, Ba">Santa Luzia Ba</option>
+<option value="Santa Maria da Vitória, Ba">Santa Maria da Vitória Ba</option>
+<option value="Santa Rita de Cássia, Ba">Santa Rita de Cássia Ba</option>
+<option value="Santa Teresinha, Ba">Santa Teresinha Ba</option>
+<option value="Santaluz, Ba">Santaluz Ba</option>
+<option value="Santana, Ba">Santana Ba</option>
+<option value="Santanópolis, Ba">Santanópolis Ba</option>
+<option value="Santo Amaro, Ba">Santo Amaro Ba</option>
+<option value="Santo Antônio de Jesus, Ba">Santo Antônio de Jesus Ba</option>
+<option value="Santo Estêvão, Ba">Santo Estêvão Ba</option>
+<option value="São Desidério, Ba">São Desidério Ba</option>
+<option value="São Domingos, Ba">São Domingos Ba</option>
+<option value="São Felipe, Ba">São Felipe Ba</option>
+<option value="São Félix, Ba">São Félix Ba</option>
+<option value="São Félix do Coribe, Ba">São Félix do Coribe Ba</option>
+<option value="São Francisco do Conde, Ba">São Francisco do Conde Ba</option>
+<option value="São Gabriel, Ba">São Gabriel Ba</option>
+<option value="São Gonçalo dos Campos, Ba">São Gonçalo dos Campos Ba</option>
+<option value="São José da Vitória, Ba">São José da Vitória Ba</option>
+<option value="São José do Jacuípe, Ba">São José do Jacuípe Ba</option>
+<option value="São Miguel das Matas, Ba">São Miguel das Matas Ba</option>
+<option value="São Sebastião do Passé, Ba">São Sebastião do Passé Ba</option>
+<option value="Sapeaçu, Ba">Sapeaçu Ba</option>
+<option value="Sátiro Dias, Ba">Sátiro Dias Ba</option>
+<option value="Saubara, Ba">Saubara Ba</option>
+<option value="Saúde, Ba">Saúde Ba</option>
+<option value="Seabra, Ba">Seabra Ba</option>
+<option value="Sebastião Laranjeiras, Ba">Sebastião Laranjeiras Ba</option>
+<option value="Senhor do Bonfim, Ba">Senhor do Bonfim Ba</option>
+<option value="Sento Sé, Ba">Sento Sé Ba</option>
+<option value="Vitória da Conquista, Ba">Vitória da Conquista Ba</option>
+<option value="Wagner, Ba">Wagner Ba</option>
+<option value="Wanderley, Ba">Wanderley Ba</option>
+<option value="Wenceslau Guimarães, Ba">Wenceslau Guimarães Ba</option>
+<option value="Xique-Xique, Ba">Xique-Xique Ba</option>
+        </select>
+    </form>
+    <form>
+        <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Agora fale um pouco mais sobre você e destaque suas abilidades especiais:</h5>
+<textarea rows="15" cols="60">
+    Escreva aqui
+</textarea>
+    </form>
+
+    <form>
+        <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Envie seu currículo e RG:</h5>
+    </form>
+
+</fieldset>
+
+
+    <form>
+        <button type="submit">Finalizar Inscição</button>
+    </form>
+    </form>
+
+
+
+    </form>
+</body>
+</html>
