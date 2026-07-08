@@ -21,7 +21,15 @@
 </legend>
 <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Nome Completo:</h5>
 <label for="nome"></label>
-<input type="text" id="nome" placeholder="Digite seu nome completo" required="" type="text"/>
+<input type="text" id="campo-letras" placeholder="Digite seu nome completo" required="" type="text"/>
+   <script>
+  const input = document.getElementById('campo-letras');
+  
+  input.addEventListener('input', function() {
+    // Remove qualquer caractere que seja um número (0-9) ou não seja letra
+    this.value = this.value.replace(/[0-9]/g, '');
+  });
+</script>
 
 <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">CPF:</h5>
 <label for="cpf"></label>
