@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Formulário De Inscrição </title>
+<title>Cadastro de Veículo</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,12 +12,12 @@
    
    <form>
 <p>
-<h6 style="text-align:left;">18/06/2026, 08:54; Cadastro - Assistência Social</h6>
+<h6 style="text-align:left;">114/07/2026; 09:35</h6>
 </p>
-<h1 style="text-align: center;">Cadastro - Assistência Social</h1>
+<h1 style="text-align: center;">Cadastro de Veículo</h1>
 <fieldset>
 <legend>
-<h3 style="font-weight: bold;">Informe os dados a seguir:</h3>
+<h3 style="font-weight: bold;">Dados do proprietário</h3>
 </legend>
 <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Nome Completo:</h5>
 <label for="nome"></label>
@@ -30,41 +30,22 @@
     this.value = this.value.replace(/[0-9]/g, '');
   });
 </script>
-
+   
 <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">CPF:</h5>
 <label for="cpf"></label>
 <input type="number" id="cpf" placeholder="000.000.000-00" required="" type="number"/>
-
-<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Data de Nascimento:</h5>
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Senha do Sistema:</h5>
 <label for="nome"></label>
-<input id="nome" max="2007-12-31" min="2000-01-01" name="texto" placeholder="DD/MM/AA" required="" type="date"/>
-
-<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Sexo:</h5>
-
-<p>
-<input id="F" name="sexo" type="checkbox"/>
-<label for="nome">Feminino</label>
-</p>
-<p>
-<input id="M" name="sexo" type="checkbox"/>
-<label for="nome">Masculino</label>
-</p>
-
-<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Email:</h5>
+<input type="email" id="email" placeholder="exemplo@gmail.com" required="" type="email"/>
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">E-mail:</h5>
 <label for="nome"></label>
 <input id="nome" name="texto" placeholder="Exemplo@gmail.com" required="" type="email"/>
-
 <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Telefone:</h5>
 <label for="nome"></label>
 <input id="nome" name="texto" placeholder="(00) 00000-0000" required="" type="number"/>
-<p>
-<input id="fixo" name="telefone" type="checkbox"/>
-<label for="fixo">Fixo</label>
-</p>
-<p>
-<input id="whatsapp" name="telefone" type="checkbox"/>
-<label for="whatsapp">Whatsapp</label>
-</p>
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Data de Nascimento:</h5>
+<label for="nome"></label>
+<input id="nome" max="2007-12-31" min="2000-01-01" name="texto" placeholder="DD/MM/AA" required="" type="date"/>
 
 <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Renda Familiar:</h5>
 <label for="nome"></label>
