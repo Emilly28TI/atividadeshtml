@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Cadastro de Veículo</title>
+<title>Cadastro - Assistência Social</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,7 +17,7 @@
 <h1 style="text-align: center;">Cadastro de Veículo</h1>
 <fieldset>
 <legend>
-<h3 style="font-weight: bold;">Dados do proprietário</h3>
+<h3 style="font-weight: bold;">Formulário Personalizado:</h3>
 </legend>
 <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Nome Completo:</h5>
 <label for="nome"></label>
@@ -34,16 +34,27 @@
 <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">CPF:</h5>
 <label for="cpf"></label>
 <input type="number" id="cpf" placeholder="000.000.000-00" required="" type="number"/>
-<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Senha do Sistema:</h5>
-<label for="nome"></label>
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Data de Nascimento:</h5>
+    <form>
+        <label for="nome"></label>
+        <input id="nome" type="date" min="2000-01-01" max="2007-12-31" placeholder="DD/MM/AA"name="texto" required/>
+    </form>
+<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Sexo:</h5>
+    <form>
+        <p>
+         <input type="checkbox" id="F"/>
+         <label for="nome">Feminino</label>
+        </p>
+        <p>
+         <input type="checkbox" id="M"/>
+         <label for="nome">Masculino</label>
+        </p>
+    </form>
 <input type="email" id="email" placeholder="exemplo@gmail.com" required="" type="email"/>
 <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">E-mail:</h5>
 <label for="nome"></label>
 <input id="nome" name="texto" placeholder="Exemplo@gmail.com" required="" type="email"/>
 <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Telefone:</h5>
-<label for="nome"></label>
-<input id="nome" name="texto" placeholder="(00) 00000-0000" required="" type="number"/>
-<h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Data de Nascimento:</h5>
 <label for="nome"></label>
 <input id="nome" max="2007-12-31" min="2000-01-01" name="texto" placeholder="DD/MM/AA" required="" type="date"/>
 
